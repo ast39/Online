@@ -1,0 +1,33 @@
+{
+    "name": "ast/online",
+    "description": "Online user checker for Laravel",
+    "keywords": ["laravel", "online", "users", "observer"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Statut",
+            "email": "alexandr.statut@gmail.com",
+            "homepage": "https://github.com/ASt39"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ast\\Online\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "lock": false,
+        "sort-packages": true,
+        "platform-check": false,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    }
+}
